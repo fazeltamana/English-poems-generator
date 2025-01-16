@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI English Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header><h1>AI English Poem Generator</h1></header>
       <main>
-        <form action="">
+        <form action="" id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the English poem"
@@ -22,15 +23,7 @@
           <input type="submit" class="submit-button" />
         </form>
       </main>
-      <div class="poem">
-        As a beautiful smile turned into spite
-        <br />
-        Like Silver rusting into dust
-        <br />
-        and all that remains
-        <br />
-        is nothing but lost trust
-      </div>
+      <div class="poem" id="poem"></div>
       <footer>
         This AI project was coded by
         <a href="https://github.com/fazeltamana">Tamana Fazel</a> with 🧡 and is
